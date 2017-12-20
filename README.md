@@ -1,4 +1,4 @@
-# SimplePowershellHttpWebserver
+# Simple Powershell Http Webserver
 This is a bare bones http listener that can handle POST and GET requests.
 
 Save SimplePowershellHttpListener.ps1 to a file and run as administrator. Then use the following to test, the rest is up to you and google.
