@@ -3,8 +3,6 @@ This is a bare bones http listener that can handle POST and GET requests.
 
 Save SimplePowershellHttpListener.ps1 to a file and run as administrator. Then use the following to test, the rest is up to you and google.
 
-To follow are a number ways to test the listener:
-
 # Powershell snippet to test http listener
 $postParams = @{data='blobofdata1';moredata='Star Wars, luke skywalker gets a lightsaber to the face!'}
 Invoke-WebRequest -Uri http://localhost:80/foobar/anything/moreifyoulike -Method POST -Body $postParams
